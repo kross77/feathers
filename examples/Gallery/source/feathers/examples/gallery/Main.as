@@ -29,7 +29,7 @@ package feathers.examples.gallery
 		public static const THUMBNAIL_LIST_NAME:String = "thumbnailList";
 
 		private static const LOADER_CONTEXT:LoaderContext = new LoaderContext(true);
-		private static const FLICKR_URL:String = "https://api.flickr.com/services/rest/?method=flickr.interestingness.getList&api_key=" + CONFIG::FLICKR_API_KEY + "&format=rest";
+		private static const FLICKR_URL:String = "https://api.flickr.com/services/rest/?method=flickr.interestingness.getList&api_key=" + "&format=rest";
 		private static const FLICKR_PHOTO_URL:String = "https://farm{farm-id}.staticflickr.com/{server-id}/{id}_{secret}_{size}.jpg";
 
 		public function Main()

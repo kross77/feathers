@@ -1,8 +1,9 @@
 package
 {
 	import feathers.examples.componentsExplorer.Main;
+import feathers.system.DeviceCapabilities;
 
-	import flash.display.Loader;
+import flash.display.Loader;
 	import flash.display.Sprite;
 	import flash.display.StageAlign;
 	import flash.display.StageOrientation;
@@ -22,6 +23,7 @@ package
 	{
 		public function ComponentsExplorer()
 		{
+			DeviceCapabilities.dpi = 150;
 			if(this.stage)
 			{
 				this.stage.scaleMode = StageScaleMode.NO_SCALE;

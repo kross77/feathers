@@ -55,4 +55,6 @@
 	<component id="TiledColumnsLayout" class="feathers.layout.TiledColumnsLayout"/>
 	<component id="AnchorLayout" class="feathers.layout.AnchorLayout"/>
 	<component id="AnchorLayoutData" class="feathers.layout.AnchorLayoutData"/>
+	<component id="VerticalLayoutData" class="feathers.layout.VerticalLayoutData"/>
+	<component id="HorizontalLayoutData" class="feathers.layout.HorizontalLayoutData"/>
 </componentPackage>
